@@ -47,6 +47,11 @@ Version|Date|Comments
   - **gulp serve**
 - See prerequisites above. Go to a site where the list is set up, load debug manifest to current url and add the web part.
 
+## Build and distribute
+
+- run `gulp bundle --ship && gulp package-solution --ship && open sharepoint/solution`
+- upload the package to your tenant's app directory
+
 ## References
 
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
